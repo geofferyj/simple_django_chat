@@ -1,0 +1,20 @@
+version: "3"
+services:
+  redis: 
+    image: redis:latest
+    ports:
+      - "6379:6379"
+
+  web:
+    # image: geofferyj/django-chat:latest
+    build: .
+    container_name: django_chat
+    depends_on:
+      - redis
+    links:
+      - redis
+    volumes: 
+      - .:/src
+    ports:
+      - "8000:8000"
+    restart: always

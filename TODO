@@ -1,0 +1,39 @@
+
+Todo:
+  ✔ create django app @done(21-10-11 19:50)
+  ✔ add websocket views @done(21-10-12 22:52)
+  ☐ dockerize the app
+  ☐ add traefic 
+
+Tasks:
+  ✔ chats takes place in a room @done(21-10-13 07:15)
+  ✔ if a user wants to chat with another user, they'll be put in a room @done(21-10-13 07:15)
+  ✔ if a user already has a room with another user, that room will be selected @done(21-10-13 07:15)
+  ✔ to chat with a user you need their username @done(21-10-13 07:15)
+  ✔ a user can send messages in a room @done(21-10-13 07:15)
+  ✔ a user can get all messages in a room @done(21-10-13 07:15)
+  ✔ rooms will be on websockets @done(21-10-13 07:15)
+
+Chats:
+  ✔ a chat message will have an ID @done(21-10-12 23:14)
+  ✔ a chat message will have a sender @done(21-10-12 23:14)
+  ✔ a chat message will have a receiver @done(21-10-12 23:14)
+  ✔ a chat message will have a message @done(21-10-12 23:14)
+  ✔ a chat message will have a timestamp @done(21-10-12 23:14)
+  ✔ a chat message will have a room @done(21-10-12 23:14)
+  ✔ a chat message will have a read status @done(21-10-12 23:14)
+  ✔ a chat message will have a read timestamp @done(21-10-12 23:14)
+
+Users: 
+  ✔ a user will have an ID @done(21-10-12 23:14)
+  ✔ a user will have a username @done(21-10-12 23:14)
+  ✔ a user will have a password @done(21-10-12 23:14)
+  ✔ a user will have a first name @done(21-10-12 23:14)
+  ✔ a user will have a last name @done(21-10-12 23:14)
+  ✔ a user will have a email @done(21-10-12 23:14)
+
+Rooms:
+  ✔ a room will have an ID @done(21-10-12 23:14)
+  ✔ a room will have participants @done(21-10-12 23:14)
+  ✔ a room will have a user @done(21-10-12 23:14)
+  ✔ a room will have a list of chats @done(21-10-12 23:14)
