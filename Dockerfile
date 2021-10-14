@@ -19,7 +19,4 @@ WORKDIR /src
 RUN python manage.py migrate
 
 EXPOSE 8000
-CMD [ "python", "manage.py", "runserver" ]
-# CMD [ "daphne", "core.asgi:application", "-b 0.0.0.0", "-p 8000" ]
-# CMD ["daphne core.asgi:application -b 0.0.0.0 -p 8000" ]
-
+CMD [ "python", "manage.py", "runserver","0.0.0.0:8000"]

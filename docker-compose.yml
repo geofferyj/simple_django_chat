@@ -6,15 +6,12 @@ services:
       - "6379:6379"
 
   web:
-    # image: geofferyj/django-chat:latest
-    build: .
+    image: geofferyj/django-chat:latest
     container_name: django_chat
     depends_on:
       - redis
     links:
       - redis
-    volumes: 
-      - .:/src
     ports:
       - "8000:8000"
     restart: always
